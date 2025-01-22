@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:alpine
+    # ports:
+    #   - 38080:80
+    volumes:
+      - ./volume/www:/usr/share/nginx/html
